@@ -1,0 +1,15 @@
+services:
+  motionpro-jump:
+    container_name: motionpro-jump
+    tty: true
+    privileged: true
+    build:
+      context: .
+      dockerfile: Dockerfile
+      args:
+        rootPasswd: ${rootPasswd}
+    ports:
+      - 6080:80
+    hostname: motionpro-jump
+    volumes:
+      - /dev/shm:/dev/shm
