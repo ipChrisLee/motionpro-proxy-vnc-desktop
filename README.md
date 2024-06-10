@@ -16,6 +16,8 @@ Download motionpro client ubuntu version and move it to `res` folder and rename 
 wget https://support.arraynetworks.net/prx/001/http/supportportal.arraynetworks.net/downloads/pkg_9_4_0_505/MP_Linux_1.2.18/MotionPro_Linux_Ubuntu_x64_build-8383-34.sh -O MotionProInstaller.sh
 ```
 
+To use other versions, you can go to [this site](https://support.arraynetworks.net/prx/001/http/supportportal.arraynetworks.net/downloads/downloads.html) to get download url.
+
 Then, create `env.sh` and add some env vars:
 
 ```bash
